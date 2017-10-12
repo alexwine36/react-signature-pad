@@ -327,6 +327,7 @@ export default class SignaturePad extends React.Component {
             <button className="btn btn-default button clear" onClick={this.clear.bind(this)}>Clear</button>
           </div>
         }
+        { this.props.children }
       </div>
     );
   }
